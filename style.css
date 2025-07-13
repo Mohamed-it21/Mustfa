@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* خلفيات */
+.bg-color {
+  background-color: #f9f3e4;
+  color: #333;
+}
+
+.bg-image {
+  background-image: url("desert.jpg");
+  background-size: cover;
+  color: white;
+}
+
+/* الصفحة 1 - الجداول */
+.layout-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.layout-table td {
+  padding: 15px;
+}
+
+/* نصوص */
+.title {
+  color: #006c67;
+  text-shadow: 2px 2px #ccc;
+  text-align: center;
+  font-size: 28px;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #444;
+  text-align: justify;
+}
+
+/* صورة */
+.main-image {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* الصفحة 2 - الأماكن */
+.section {
+  padding: 20px;
+}
+
+.places {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.place-image {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.place-image:hover {
+  transform: scale(1.05);
+}
+
+.info-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.info-table th, .info-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* الصفحة 3 - نموذج وتخطيط */
+.contact-form {
+  padding: 20px;
+}
+.contact-form input, 
+.contact-form textarea, 
+.contact-form select {
+  padding: 8px;
+  margin: 5px 0 10px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+
+/* عناصر التخطيط */
+header, footer, nav, section, article, aside {
+  padding: 15px;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  background-color: #ddd;
+}

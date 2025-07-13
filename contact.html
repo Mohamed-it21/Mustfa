@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تواصل معنا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-color">
+
+  <header>
+    <h1>نموذج التواصل</h1>
+  </header>
+
+  <nav>
+    <p><a href="index.html">الرئيسية</a> | <a href="places.html">أماكن</a></p>
+  </nav>
+
+  <section>
+    <article>
+      <form class="contact-form">
+        <label>الاسم: <input type="text" name="name" required></label><br>
+        <label>البريد الإلكتروني: <input type="email" name="email" required></label><br>
+        <label>الجنس:
+          <select name="gender">
+            <option>ذكر</option>
+            <option>أنثى</option>
+          </select>
+        </label><br>
+        <label>الرسالة: <textarea name="message"></textarea></label><br>
+        <input type="submit" value="إرسال">
+      </form>
+    </article>
+
+    <aside>
+      <h3>فيديو عن السياحة</h3>
+      <video controls width="250">
+        <source src="video.mp4" type="video/mp4">
+        المتصفح لا يدعم تشغيل الفيديو.
+      </video>
+
+      <h3>صوت ترحيبي</h3>
+      <audio controls>
+        <source src="welcome.mp3" type="audio/mpeg">
+        المتصفح لا يدعم تشغيل الصوت.
+      </audio>
+    </aside>
+  </section>
+
+  <footer>
+    <p>© 2025 السياحة في السعودية</p>
+  </footer>
+
+</body>
+</html>
